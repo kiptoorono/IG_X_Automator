@@ -1,0 +1,2 @@
+# GitHub rejects files over 100 MB in normal Git history.
+dist/IG_Automator_windows/IG_Automator.exe filter=lfs diff=lfs merge=lfs -text

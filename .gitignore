@@ -1,0 +1,36 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Build output (the executable is kept below; platform-tools is tracked once at the root)
+build/
+dist/*
+!dist/IG_Automator_windows/
+dist/IG_Automator_windows/*
+!dist/IG_Automator_windows/IG_Automator.exe
+
+# Rebuildable and local-only tooling
+.vscode/
+*.log
+*.tmp
+*.bak
+*.spec.bak
+
+# Local runtime data and browser/device state
+screenshots/
+*.db
+*.sqlite
+*.sqlite3
+User Data*/
+
+# Do not store the duplicate archive; the release folder contains its contents.
+dist/*.zip
+
+# Temporary UI dumps and generated test data
+*.xml
+Twitter/test_collected_pairs.csv
+Twitter/dump_*.py
